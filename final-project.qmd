@@ -276,7 +276,17 @@ pacifc_ts_Best
 ```{r}
 library(ggpubr)
 ggqqplot(mp$measurement_log)
-
+```
+ 
+```{r}
+library(mgcv)
+mod_lm = gam(measurement_log ~ oceans, data = mp)
+summary(mod_lm)
+```
+ 
+```{r}
+mod_gam1 = gam(measurement_log ~ s(as.numeric(date)), data = mp)
+summary(mod_gam1)
 ```
  
  
