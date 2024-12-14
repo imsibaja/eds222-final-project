@@ -1,5 +1,13 @@
 ---
 title: "Microplastic Distribution Analysis"
+description: "EDS 222 Final"
+author: 
+  - name: "IMS"
+    url: https://imsibaja.github.io/
+    affiliation: MEDS
+    affiliation-url: https://bren.ucsb.edu/masters-programs/master-environmental-data-science
+date: last-modified
+categories: [Quarto, MEDS, EDS222]
 output: 
   html_document:
     toc: true
@@ -16,6 +24,7 @@ format:
     toc: true
 editor_options: 
   chunk_output_type: console
+toc: true
 ---
 
 The full repository for this analysis can be found [here](https://github.com/imsibaja/eds222-final-project).
