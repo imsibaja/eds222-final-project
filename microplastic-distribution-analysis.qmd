@@ -25,6 +25,7 @@ format:
 editor_options: 
   chunk_output_type: console
 toc: true
+published: false
 ---
 
 The full repository for this analysis can be found [here](https://github.com/imsibaja/eds222-final-project).
@@ -65,7 +66,7 @@ For our study, this data includes important information on microplastic concentr
 ```{r}
 #| code-fold: true
 #| code-summary: "Load Data"
-mp <- read_csv(here("data/Marine_Microplastics_NOAA.csv"))
+mp <- read_csv(here("posts/2024-12-13-microplastic-distribution-analysis/data/Marine_Microplastics_NOAA.csv"))
 ```
 
 ```{r}
